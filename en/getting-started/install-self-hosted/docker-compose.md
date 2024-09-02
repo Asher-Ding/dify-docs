@@ -27,7 +27,7 @@ Navigate to the docker directory in the Dify source code and execute the followi
 ```bash
 cd dify/docker
 cp .env.example .env
-docker compose up -d
+docker-compose up -d
 ```
 
 > If your system has Docker Compose V2 installed instead of V1, use `docker compose` instead of `docker-compose`. Check if this is the case by running `$ docker compose version`. [Read more information here](https://docs.docker.com/compose/#compose-v2-and-the-new-docker-compose-command).
